@@ -1,0 +1,210 @@
+.background{
+    background-image: url(images/IN-en-20231113-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    z-index:-1 ;
+}
+
+.blur{
+    background-color:rgba(0,0,0,0.6);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    margin: 0;
+
+    position: absolute;
+   z-index: -1;
+}
+.text{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 70vh;
+
+/* }
+.set h1{
+    font-size: 35px; 
+    height: 15vh;
+    position: relative;
+    top: -65px;
+}
+.text1 h2{
+    /* height: 10vh;  */
+    font-size: 26px;
+   
+}
+.text h1{
+font-size: 45px;
+font-weight: 800;
+}
+.text1 p{
+    font-size: 20px;
+}
+.texter{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -10px;
+    
+    
+    
+}
+body{
+    background-color: black;
+}
+.hr{
+    background-color: rgb(48, 47, 47);
+    height: 1vh;
+    width: 100%;
+    
+}
+.background1{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.row h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.row p{
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.background2{
+    width: 100%;
+    height: 90vh;
+    
+}
+.background2 h1{
+    font-size: 32px;
+}
+.background2 p{
+    font-size: 20px;
+}
+.background2 img{
+    width: 500px;
+    height: 350px;
+   
+}
+.background3{
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+}
+
+
+.background4{
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+}
+.page1{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.page1 h1{
+    font-size: 30px;
+    position: relative;
+    top: 15px;
+}
+.page2 h2{
+    font-size:18px ;
+    color: rgb(240, 237, 237);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative; 
+    top:100px;
+    
+    
+}
+
+.accordion-item button{
+    background-color: rgb(78, 77, 77);
+    color: white;
+}
+
+.accordion-item{
+    background-color: rgb(78, 77, 77) ;
+    color: white;
+}
+.container input{
+    background-color: rgb(246, 241, 241);
+    color: white;
+    
+}
+.container address{
+    width: 100%;
+    height: 130vh;
+}
+
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items:; */
+    
+}
+
+a{
+  color: rgb(158, 162, 164);
+}
+
+
+@media(max-width:576px){
+    .mobile .mobile1 {
+        order:2 ;
+    }
+    .device  .device1 {
+        order:2 ;
+    }
+    .background2 img{
+        width: 600px;
+        height: 300px;
+       
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* align-items:; */
+        justify-content: center;
+        text-align: center;
+        
+    }
+}
+
+@media(min-width:771px){
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* align-items:; */
+        justify-content: center;
+        text-align: center;
+        
+    } 
+}
+
